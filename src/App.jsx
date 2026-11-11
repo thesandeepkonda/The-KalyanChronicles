@@ -1,11 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 
-// We will build these components in Part 2
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-// We will build these pages in Part 3 & 4
 import Home from './pages/Home';
 import About from './pages/About';
 import Episodes from './pages/Episodes';
@@ -16,7 +14,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <Router basename="/The-KalyanChronicles">
+    <Router>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-brand-bg text-brand-text">
         <Navbar />

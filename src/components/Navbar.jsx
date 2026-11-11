@@ -61,7 +61,7 @@ export default function Navbar() {
         {/* Brand Logo */}
 <Link to="/" className="flex items-center gap-3 z-50">
   <img
-    src="public\images\logok.png"
+    src="/The-KalyanChronicles/images/logok.png"
     alt="The Kalyan Chronicles Logo"
     className="h-12 md:h-16 w-auto object-contain"
   />

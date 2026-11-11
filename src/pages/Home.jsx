@@ -35,7 +35,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/kalyan.png" 
+            src="/The-KalyanChronicles/images/kalyan.png" 
             alt="Kalyan K Bharath in Studio" 
             className="w-full h-full object-cover opacity-60 object-top"
           />

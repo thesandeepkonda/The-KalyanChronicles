@@ -167,7 +167,7 @@ export default function About() {
         >
           <div className="aspect-[3/4] rounded-3xl overflow-hidden border border-[#222] mb-8 relative group">
             <img
-              src="/images/kalyanbio.png"
+              src="/The-KalyanChronicles/images/kalyanbio.png"
               alt="Kalyan K Bharath"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

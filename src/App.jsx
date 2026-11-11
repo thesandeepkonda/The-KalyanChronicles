@@ -16,7 +16,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/The-KalyanChronicles">
       <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-brand-bg text-brand-text">
         <Navbar />

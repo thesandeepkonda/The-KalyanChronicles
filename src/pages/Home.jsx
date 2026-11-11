@@ -225,7 +225,7 @@ export default function Home() {
             className="w-full lg:w-1/2 aspect-[4/5] relative rounded-2xl overflow-hidden"
           >
             <img
-              src="/images/kalyanbio.png"
+              src="/The-KalyanChronicles/images/kalyanbio.png"
               alt="Kalyan K Bharath"
               className="w-full h-full object-cover"
             />
